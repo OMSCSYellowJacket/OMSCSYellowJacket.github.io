@@ -19,6 +19,8 @@ it was focused on the data component of these systems, and executed with sanitiz
 data. This course will focused creating educational content on how to create end-to-end machine learning applications with high velocity market data using a project based learning approach.
 This type of approach is based on experiential learning. Content in blue has been completed.
 
+[Video Link](https://mediaspace.gatech.edu/media/Scaling+Machine+Learning+Applications/1_03qeqwy0)
+
 ## Lessons
 
  <b> <span style="color: blue"> Module 1: Streaming Data Fundamentals  </span></b><br> 
