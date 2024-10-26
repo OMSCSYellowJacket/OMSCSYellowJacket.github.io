@@ -40,6 +40,7 @@ Example of streaming data include:
 Real-time data processing involves handling and analyzing data as it is generated, allowing for immediate insights and actions. Several algorithms and techniques are commonly used in this context. Here are some key algorithms for real-time data processing:
 
 ## **Types of Streamimg Data Algorithms**
+
 ### 1. **Stream Processing Algorithms**
 - **Description**: Algorithms that process data in motion rather than in batches.
 - **Examples**:
@@ -90,4 +91,4 @@ Real-time data processing involves handling and analyzing data as it is generate
   - **Load Balancing Algorithms**: Techniques to distribute incoming data streams across multiple processors or servers.
 
 
-These algorithms play critical roles in real-time data processing, enabling applications across various domains such as finance, healthcare, IoT, and more. The choice of algorithm depends on the specific requirements of the application, including the nature of the data, processing speed, and the desired outcomes.
+These algorithms play critical roles in real-time processing of data, enabling applications across various domains such as finance, healthcare, IoT, and more. The choice of algorithm depends on the specific requirements of the application, including the nature of the data, processing speed, and the desired outcomes.
