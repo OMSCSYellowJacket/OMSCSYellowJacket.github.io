@@ -1,3 +1,26 @@
+# Scaling Machine Learning Applications: How to Create Robust Applications
+## Introduction (Content Track)
+Due to the current popularity of artificial intelligence, machine learning classes
+at the elementary, secondary, and tertiary level have been increasing. Despite
+the rise in the number of machine learning literate students, the capability to
+operationalize such applications has been problematic. A disconnect exists between
+the development of machine learning systems and the deployment of
+said systems. One common complaint is that while most machine
+learning engineers are capable of manipulating algorithms, developing
+models, and creating crude prototypes, they lack the knowledge to implement
+more sophisticated prototypes and production systems. The dynamics of machine learning systems differ from traditional rule-based
+software systems. Data scientists need to have a system-centric mindset as
+opposed to a model-centric mindset when dealing with such systems.
+The disconnect between an expanding machine learning workforce and deploying
+robust machine learning applications may suggest a disconnect between the
+content of educational courses and the needs of industry. Specifically, machine learning is taught at a theoretical level with a focus primarily on
+algorithm development. In cases where such educational content is developed,
+it was focused on the data component of these systems, and executed with sanitized
+data. This course will focused creating educational content on how to create end-to-end machine learning applications with high velocity market data using a project based learning approach.
+This type of approach is based on experiential learning.
+
+## Lessons
+
 <b> Module 1: Streaming Data Fundamentals </b><br> 
 - Introduction to Streaming Data
 - Definition and characteristics of streaming data
