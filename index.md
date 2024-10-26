@@ -17,7 +17,7 @@ content of educational courses and the needs of industry. Specifically, machine 
 algorithm development. In cases where such educational content is developed,
 it was focused on the data component of these systems, and executed with sanitized
 data. This course will focused creating educational content on how to create end-to-end machine learning applications with high velocity market data using a project based learning approach.
-This type of approach is based on experiential learning.
+This type of approach is based on experiential learning. Content in blue has been completed.
 
 ## Lessons
 
@@ -38,16 +38,15 @@ This type of approach is based on experiential learning.
 - Setting up Kafka and understanding its architecture
 - Producing and consuming messages in Kafka
 - Concepts of topics, partitions, and consumer groups
-- Stream Processing with Apache Flink or Apache Spark Streaming
-4
-- Overview of Flink/Spark Streaming
-- Processing streams: transformations, windowing, and aggregations
-- Handling stateful processing and fault tolerance
+- <span style="color: blue">Stream Processing with Apache Flink or Apache Spark Streaming</span>
+- <span style="color: blue">Overview of Flink/Spark Streaming</span>
+- <span style="color: blue">Processing streams: transformations, windowing, and aggregations</span>
+- <span style="color: blue">Handling stateful processing and fault tolerance</span>
   
 <b> Module 4: Data Handling and Storage</b><br> 
-- Real-Time Data Storage Solutions
-- Overview of databases suitable for streaming data (e.g., Cassandra, Redis)
-- Introduction to time-series databases (e.g., InfluxDB)
+- <span style="color: blue">Real-Time Data Storage Solutions</span>
+- <span style="color: blue">Overview of databases suitable for streaming data (e.g., Cassandra, Redis)</span>
+- <span style="color: blue">Introduction to time-series databases (e.g., InfluxDB)</span>
 - Data modeling for streaming applications
 - Designing ETL pipelines for real-time data ingestion
   
