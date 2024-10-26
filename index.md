@@ -21,12 +21,12 @@ This type of approach is based on experiential learning.
 
 ## Lessons
 
- <b> Module 1: Streaming Data Fundamentals</b><br> 
-- Introduction to Streaming Data
-- Definition and characteristics of streaming data
-- Differences between batch processing and stream processing
-- Algorithms for real-time data processing
-- Requirements engineering
+ <b> <span style="color: blue"> Module 1: Streaming Data Fundamentals  </span></b><br> 
+- <span style="color: blue">Introduction to Streaming Data</span>
+- <span style="color: blue">Definition and characteristics of streaming data</span>
+- <span style="color: blue">Differences between batch processing and stream processing</span>
+- <span style="color: blue">Algorithms for real-time data processing</span>
+- <span style="color: blue">Requirements engineering</span>
 
 <b> Module 2: Stream Processing Architectures</b><br> 
 - Overview of kappa stream processing architecture
