@@ -21,7 +21,7 @@ This type of approach is based on experiential learning.
 
 ## Lessons
 
- <b> <span style="color:blue">Module 1: Streaming Data Fundamentals</span> </b><br> 
+ <b> Module 1: Streaming Data Fundamentals</b><br> 
 - Introduction to Streaming Data
 - Definition and characteristics of streaming data
 - Differences between batch processing and stream processing
