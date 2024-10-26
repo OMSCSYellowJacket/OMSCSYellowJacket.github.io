@@ -53,3 +53,9 @@ This type of approach is based on experiential learning.
   
 <b> Module 5: Building Data-Driven Applications</b><br> 
 - Develop real-time application using market price data to create buy/sell signals
+
+## Current Content
+
+For Milestone one initial content has been developed and can be found at the link below.  This content will be organized for Milestone two. This content will culminated into a project for the final report.<br>
+
+[Current Content](https://omscsyellowjacket.github.io/content)<br>
