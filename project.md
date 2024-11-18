@@ -1,6 +1,6 @@
 
-For the project, we'll create a Kappa architecture that can handle at least 4GB of streaming market price data per day. The architecuture will handle approximately 800 tickers with each ticker delivering information at varying rates. The system will evaluate the system for buy/sell signals. Note that we will not focus on the particular machine learning algorithm used. Hence the student is free to create their own algorithm. 
-
+For the project, we'll create a Kappa architecture that can handle at least 4GB of streaming market price data per day. The architecuture will handle approximately 800 tickers with each ticker delivering information at varying rates. The system will evaluate the system for buy/sell signals. Note that we will not focus on the particular machine learning algorithm used. Hence the student is free to create their own algorithm. The architecture for this example project is using a **Kappa Architecture** and is shown in the image below.
+kappa.jpg
 
 The **Kappa Architecture** is a data architecture pattern uses a single stream processing layer for both real-time and batch processing of data. In the context of streaming market data, the architecture can be designed using a combination of technologies like **Apache Kafka**, **Apache Spark**, **TimescaleDB**, **Cassandra**, **Zookeeper**, and a **Schema Registry** to achieve high throughput, fault tolerance, and scalability. Below is a detailed description of how these components can fit into a Kappa Architecture for streaming market data.
 
