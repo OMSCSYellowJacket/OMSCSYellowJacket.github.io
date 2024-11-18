@@ -19,7 +19,8 @@ it was focused on the data component of these systems, and executed with sanitiz
 data. This course will focused creating educational content on how to create end-to-end machine learning applications with high velocity market data using a project based learning approach.
 This type of approach is based on experiential learning. Content in blue has been completed.
 
-[Video Link](https://mediaspace.gatech.edu/media/Scaling+Machine+Learning+Applications/1_03qeqwy0)
+[Milestine 1 Video Link](https://mediaspace.gatech.edu/media/Scaling+Machine+Learning+Applications/1_03qeqwy0)
+[Milestine 2 Video Link](https://mediaspace.gatech.edu/media/Scaling+Machine+Learning+Applications/1_03qeqwy0)
 
 ## Lessons
 
@@ -31,15 +32,15 @@ This type of approach is based on experiential learning. Content in blue has bee
 - <span style="color: blue">Requirements engineering</span>
 
 <b> Module 2: Stream Processing Architectures</b><br> 
-- Overview of kappa stream processing architecture
-- Key components: data producers, consumers, and brokers
-- Introduction to message brokers (e.g., Apache Kafka, RabbitMQ)
+- <span style="color: blue">Overview of kappa stream processing architecture</span>
+- <span style="color: blue">Key components: data producers, consumers, and brokers</span>
+- <span style="color: blue">Introduction to message brokers (e.g., Apache Kafka, RabbitMQ)</span>
   
 <b> Module 3: Streaming Data Frameworks</b><br> 
-- Introduction to Apache Kafka
-- Setting up Kafka and understanding its architecture
-- Producing and consuming messages in Kafka
-- Concepts of topics, partitions, and consumer groups
+- <span style="color: blue">Introduction to Apache Kafka</span>
+- <span style="color: blue">Setting up Kafka and understanding its architecture</span>
+- <span style="color: blue">Producing and consuming messages in Kafka</span>
+- <span style="color: blue">Concepts of topics, partitions, and consumer groups</span>
 - <span style="color: blue">Stream Processing with Apache Flink or Apache Spark Streaming</span>
 - <span style="color: blue">Overview of Flink/Spark Streaming</span>
 - <span style="color: blue">Processing streams: transformations, windowing, and aggregations</span>
@@ -49,11 +50,11 @@ This type of approach is based on experiential learning. Content in blue has bee
 - <span style="color: blue">Real-Time Data Storage Solutions</span>
 - <span style="color: blue">Overview of databases suitable for streaming data (e.g., Cassandra, Redis)</span>
 - <span style="color: blue">Introduction to time-series databases (e.g., InfluxDB)</span>
-- Data modeling for streaming applications
-- Designing ETL pipelines for real-time data ingestion
+- <span style="color: blue">Data modeling for streaming applications </span>
+- <span style="color: blue">Designing ETL pipelines for real-time data ingestion </span>
   
 <b> Module 5: Building Data-Driven Applications</b><br> 
-- Develop real-time application using market price data to create buy/sell signals
+- <span style="color: blue">Develop real-time application using market price data to create buy/sell signals </span>
 
 ## Current Content
 
