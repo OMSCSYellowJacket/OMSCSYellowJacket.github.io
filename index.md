@@ -24,7 +24,7 @@ This type of approach is based on experiential learning. Content in blue has bee
 
 ## Lessons
 
- <b> <span style="color: blue"> Module 1: Streaming Data Fundamentals  </span></b><br> 
+ <b> Module 1: Streaming Data Fundamentals  </b><br> 
 - <span style="color: blue">Introduction to Streaming Data</span>
 - <span style="color: blue">Definition and characteristics of streaming data</span>
 - <span style="color: blue">Differences between batch processing and stream processing</span>
