@@ -29,24 +29,21 @@ This type of approach is based on experiential learning. Content in blue has bee
 - <span style="color: blue">[Definition and characteristics of streaming data](https://OMSCSYellowJacket.github.io/data#definition-of-streaming-data)</span>
 - <span style="color: blue">[Differences between batch processing and stream processing](https://OMSCSYellowJacket.github.io/data#batch-data-versus-streaming-data)</span>
 - <span style="color: blue">[Algorithms for real-time data processing](https://OMSCSYellowJacket.github.io/data#types-of-streamimg-data-algorithms)</span>
-- <span style="color: blue">[Requirements engineering](https://OMSCSYellowJacket.github.io
-/requirements)
-]</span>
+- <span style="color: blue">[Requirements engineering](https://OMSCSYellowJacket.github.io/requirements)
+</span>
 
 <b> Module 2: Stream Processing Architectures</b><br> 
-- <span style="color: blue">[Overview of Kappa stream processing architecture](https://OMSCSYellowJacket.github.io
-/kappaarchitecture)</span>
-- <span style="color: blue">[Key components of Kappa architecture] (https://OMSCSYellowJacket.github.io/kappaarchitecture#key-components)</span>
+- <span style="color: blue">[Overview of Kappa stream processing architecture](https://OMSCSYellowJacket.github.io/kappaarchitecture)</span>
+- <span style="color: blue">[Key components of Kappa architecture](https://OMSCSYellowJacket.github.io/kappaarchitecture#key-components)</span>
 - <span style="color: blue">[Advantages and use cases of Kappa architecture](https://OMSCSYellowJacket.github.io/kappaarchitecture#advantages)</span>
   
 <b> Module 3: Streaming Data Frameworks</b><br> 
-- <span style="color: blue">Introduction to Apache Kafka</span>
-- <span style="color: blue">Setting up Kafka and understanding its architecture</span>
-- <span style="color: blue">Producing and consuming messages in Kafka</span>
-- <span style="color: blue">Concepts of topics, partitions, and consumer groups</span>
-- <span style="color: blue">Stream Processing with Apache Flink or Apache Spark Streaming</span>
-- <span style="color: blue">Overview of Flink/Spark Streaming</span>
-- <span style="color: blue">Processing streams: transformations, windowing, and aggregations</span>
+- <span style="color: blue">[Introduction to Apache Kafka](https://OMSCSYellowJacket.github.io/kafka)</span>
+- <span style="color: blue">[Key components in Kafka](https://OMSCSYellowJacket.github.io/kafka#key-components)</span>
+- <span style="color: blue">[Additional concepts and use cases in Kafka](https://OMSCSYellowJacket.github.io/kafka#additional-concepts)</span>
+- <span style="color: blue">[Stream Processing with Apache Spark Streaming](https://OMSCSYellowJacket.github.io/spark)</span>
+- <span style="color: blue">[Overview of Spark Streaming](https://OMSCSYellowJacket.github.io/spark#spark-streaming)</span>
+- <span style="color: blue">[Processing streams: transformations, windowing, and aggregations](https://OMSCSYellowJacket.github.io/spark#transformations)</span>
 - <span style="color: blue">Handling stateful processing and fault tolerance</span>
   
 <b> Module 4: Data Handling and Storage</b><br> 
