@@ -3,7 +3,7 @@ For the project, we'll create a Kappa architecture that can handle at least 4GB 
 ![image info](./Kappa2.png)
 
 
-The **Kappa Architecture** is a data architecture pattern uses a single stream processing layer for both real-time and batch processing of data. In the context of streaming market data, the architecture can be designed using a combination of technologies like **Apache Kafka**, **Apache Spark**, **TimescaleDB**, **Cassandra**, **Zookeeper**, and a **Schema Registry** to achieve high throughput, fault tolerance, and scalability. Below is a detailed description of how these components can fit into a Kappa Architecture for streaming market data.
+The **Kappa Architecture** is a data architecture pattern uses a single stream processing layer for both real-time and batch processing of data. In the context of streaming market data, the architecture can be designed using a combination of technologies like **Apache Kafka**, **Apache Spark**, **PostresSQL**, **Cassandra**, **Zookeeper**, and a **Schema Registry** to achieve high throughput, fault tolerance, and scalability. Below is a detailed description of how these components can fit into a Kappa Architecture for streaming market data.
 
 ### 1. **Data Ingestion Layer (Kafka + Schema Registry + Zookeeper)**
 The first step in the Kappa architecture is to ingest the streaming market data into the system. This is typically done through **Apache Kafka**, a distributed streaming platform that can handle high-throughput and low-latency data ingestion. Kafka works well for both real-time processing and fault-tolerant storage.
@@ -23,7 +23,7 @@ At the core of the Kappa Architecture is the **stream processing engine**. In th
 - **Processing tasks** could include aggregations, filtering, joins, windowing operations (e.g., calculating moving averages for stock prices), and more.
 - Spark can also handle late-arriving data, manage windowing for time-based operations, and scale horizontally to handle large volumes of data.
 
-### 3. **Storage Layer (Postgresql + Cassandra)**
+### 3. **Storage Layer (PostgreSQL + Cassandra)**
 The processed data can be stored in multiple databases depending on the use case and data type.
 
 - **PostresSQL**: an open-source, object-relational database management system known for its stability, scalability, and extensibility. It supports advanced data types like JSON, arrays, and custom types, offering powerful querying capabilities and compliance with SQL standards. PostgreSQL is widely used in both small and large applications due to its robust performance, strong community support, and active development.
@@ -37,9 +37,9 @@ Both **PostresSQL** and **Cassandra** can scale horizontally and provide fault t
 ### 4. **Data Serving and Real-time Query Layer**
 After processing, the data can be served to different consumers like dashboards, analytic tools, or even machine learning models.
 
-- For **real-time querying**, tools like **TimescaleDB** can be directly queried to fetch the latest market data (e.g., current prices, aggregated statistics).
+- For **real-time querying**, tools like **PostresSQL**  can be directly queried to fetch the latest market data (e.g., current prices, aggregated statistics).
 - For **batch or analytical queries**, **Cassandra** can be used to store raw event data that can later be analyzed in bulk, with tools like **Apache Spark** used to periodically aggregate this data.
-- For **visualization**, tools like **Grafana** or **Tableau** can be used to query TimescaleDB for time-series visualizations. Due to time constriants, the visualization component was not proposed as part of the  project.
+- For **visualization**, tools like **Grafana** or **Tableau** can be used to query PostresSQL for time-series visualizations. Due to time constriants, the visualization component was not proposed as part of the  project.
 
 ### 5. **Data Quality and Monitoring**
 Monitoring the quality of the data, performance of the streaming pipeline, and error handling is crucial in a real-time data architecture.
@@ -50,13 +50,13 @@ Monitoring the quality of the data, performance of the streaming pipeline, and e
 ### 6. **Fault Tolerance & Scalability**
 - **Kafka’s partitioning** and **replication** ensure fault tolerance by replicating data across multiple brokers.
 - **Spark** provides fault tolerance via its **checkpointing** and **stateful processing** capabilities. In case of failure, Spark can resume processing from the last checkpoint.
-- **TimescaleDB** and **Cassandra** can scale horizontally across nodes and provide high availability.
+- **PostresSQL**  and **Cassandra** can scale horizontally across nodes and provide high availability.
 
 ### Workflow Summary:
 1. **Market data sources (e.g., stock price updates, trading events)** are ingested into **Apache Kafka** via producers.
 2. **Kafka brokers** manage the data streams and make it available for consumption by downstream systems.
 3. Data is consumed by **Apache Spark** for real-time stream processing, such as aggregation, transformation, and enrichment.
-4. The processed data is stored in **TimescaleDB** (for time-series data) and **Cassandra** (for event data) for later querying and analytics.
+4. The processed data is stored in **PostresSQL**  (for time-series data) and **Cassandra** (for event data) for later querying and analytics.
 5. A **Schema Registry** ensures consistent message formats across the Kafka topics.
 6. **Apache Airflow** manages the orchestration of batch or offline jobs for further processing or maintenance tasks.
 
