@@ -40,8 +40,7 @@ Fault tolerance in streaming data processing is crucial for ensuring the reliabi
 Several streaming data processing frameworks provide built-in mechanisms for fault tolerance:
 
 - **Apache Spark Streaming**: Uses micro-batch processing and checkpointing to recover from failures. It can also leverage RDD lineage for fault tolerance.
-- **Apache Flink**: Offers strong fault tolerance through checkpoints and state snapshots, allowing for exactly-once processing semantics.
 - **Apache Kafka Streams**: Supports fault tolerance by leveraging Kafka’s replication and transactional capabilities to ensure data consistency and recovery.
-- **Apache Beam**: Provides a unified model for batch and streaming processing, supporting various backends with inherent fault-tolerance features.
+
 
 Fault tolerance in streaming data processing is essential for maintaining the reliability and consistency of real-time applications. By implementing techniques like data replication, checkpointing, and ensuring exactly-once processing semantics, streaming systems can effectively handle failures while minimizing data loss and maintaining operational integrity. These strategies enable organizations to build robust real-time applications that can withstand unexpected challenges.
