@@ -27,16 +27,17 @@ This type of approach is based on experiential learning. Content in blue has bee
  <b> Module 1: Streaming Data Fundamentals  </b><br> 
 - <span style="color: blue">[Introduction to Streaming Data](https://OMSCSYellowJacket.github.io/data)</span>
 - <span style="color: blue">[Definition and characteristics of streaming data](https://OMSCSYellowJacket.github.io/data#definition-of-streaming-data)</span>
-- <span style="color: blue">Differences between batch processing and stream processing[https://github.com/OMSCSYellowJacket/OMSCSYellowJacket.github.io/blob/main/data.md#batch-data-versus-streaming-data]</span>
-- <span style="color: blue">Algorithms for real-time data processing[https://github.com/OMSCSYellowJacket/OMSCSYellowJacket.github.io/blob/main/data.md#types-of-streamimg-data-algorithms]</span>
-- <span style="color: blue">Requirements engineering[https://OMSCSYellowJacket.github.io
-/requirements.md
+- <span style="color: blue">[Differences between batch processing and stream processing](https://OMSCSYellowJacket.github.io/data#batch-data-versus-streaming-data)</span>
+- <span style="color: blue">[Algorithms for real-time data processing](https://OMSCSYellowJacket.github.io/data#types-of-streamimg-data-algorithms)</span>
+- <span style="color: blue">[Requirements engineering](https://OMSCSYellowJacket.github.io
+/requirements)
 ]</span>
 
 <b> Module 2: Stream Processing Architectures</b><br> 
-- <span style="color: blue">Overview of kappa stream processing architecture</span>
-- <span style="color: blue">Key components: data producers, consumers, and brokers</span>
-- <span style="color: blue">Introduction to message brokers (e.g., Apache Kafka, RabbitMQ)</span>
+- <span style="color: blue">[Overview of Kappa stream processing architecture](https://OMSCSYellowJacket.github.io
+/kappaarchitecture)</span>
+- <span style="color: blue">[Key components](https://OMSCSYellowJacket.github.io/kappaarchitecture#key-components)</span>
+- <span style="color: blue">[Advantages and Use Cases of Kappa arxhitecture](https://OMSCSYellowJacket.github.io/kappaarchitecture#advantages)`</span>
   
 <b> Module 3: Streaming Data Frameworks</b><br> 
 - <span style="color: blue">Introduction to Apache Kafka</span>
