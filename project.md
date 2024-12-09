@@ -22,16 +22,16 @@ At the core of the Kappa Architecture is the **stream processing engine**. In th
 - **Processing tasks** could include aggregations, filtering, joins, windowing operations (e.g., calculating moving averages for stock prices), and more.
 - Spark can also handle late-arriving data, manage windowing for time-based operations, and scale horizontally to handle large volumes of data.
 
-### 3. **Storage Layer (TimescaleDB + Cassandra)**
+### 3. **Storage Layer (Postgresql + Cassandra)**
 The processed data can be stored in multiple databases depending on the use case and data type.
 
-- **TimescaleDB**: This is a time-series database built on top of PostgreSQL, optimized for storing and querying time-series data. Market data, which often comes with timestamps (e.g., stock price updates, market trends), is well-suited to be stored in TimescaleDB. TimescaleDB can efficiently store, index, and query market data over time, supporting complex queries like range queries, continuous aggregates, and time-based filtering.
+- **PostresSQL**: an open-source, object-relational database management system known for its stability, scalability, and extensibility. It supports advanced data types like JSON, arrays, and custom types, offering powerful querying capabilities and compliance with SQL standards. PostgreSQL is widely used in both small and large applications due to its robust performance, strong community support, and active development.
   - **Use case**: Storing price history, price charts, and market events, with the ability to query historical data with high performance.
   
 - **Cassandra**: Apache Cassandra is a distributed NoSQL database designed for high availability and scalability. It excels in handling massive amounts of write-heavy data and can be used to store event logs or real-time market transactions, where consistency is relaxed in favor of availability and partition tolerance.
   - **Use case**: Storing high-frequency event data like trade logs, real-time order book updates, or tick-level data.
 
-Both **TimescaleDB** and **Cassandra** can scale horizontally and provide fault tolerance, ensuring the system is highly available and can handle increasing volumes of data over time.
+Both **PostresSQL** and **Cassandra** can scale horizontally and provide fault tolerance, ensuring the system is highly available and can handle increasing volumes of data over time.
 
 ### 4. **Data Serving and Real-time Query Layer**
 After processing, the data can be served to different consumers like dashboards, analytic tools, or even machine learning models.
@@ -43,7 +43,7 @@ After processing, the data can be served to different consumers like dashboards,
 ### 5. **Data Quality and Monitoring**
 Monitoring the quality of the data, performance of the streaming pipeline, and error handling is crucial in a real-time data architecture.
 
-- **Apache Airflow** can be used to orchestrate and monitor batch processes or offline jobs. For example, Airflow can schedule periodic jobs to clean, aggregate, or transform historical data stored in **Cassandra** or **TimescaleDB**.
+- **Apache Airflow** can be used to orchestrate and monitor batch processes or offline jobs. For example, Airflow can schedule periodic jobs to clean, aggregate, or transform historical data stored in **Cassandra** or **PostresSQL**.
 - **Metrics** and **logs** can be collected from Kafka, Spark, and the databases (TimescaleDB and Cassandra) to monitor the system’s performance and data quality.
 
 ### 6. **Fault Tolerance & Scalability**
