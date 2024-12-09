@@ -36,8 +36,8 @@ This type of approach is based on experiential learning. Content in blue has bee
 <b> Module 2: Stream Processing Architectures</b><br> 
 - <span style="color: blue">[Overview of Kappa stream processing architecture](https://OMSCSYellowJacket.github.io
 /kappaarchitecture)</span>
-- <span style="color: blue">[Key components](https://OMSCSYellowJacket.github.io/kappaarchitecture#key-components)</span>
-- <span style="color: blue">[Advantages and Use Cases of Kappa arxhitecture](https://OMSCSYellowJacket.github.io/kappaarchitecture#advantages)`</span>
+- <span style="color: blue">[Key components of Kappa architecture] (https://OMSCSYellowJacket.github.io/kappaarchitecture#key-components)</span>
+- <span style="color: blue">[Advantages and use cases of Kappa architecture](https://OMSCSYellowJacket.github.io/kappaarchitecture#advantages)</span>
   
 <b> Module 3: Streaming Data Frameworks</b><br> 
 - <span style="color: blue">Introduction to Apache Kafka</span>
