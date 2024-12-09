@@ -48,17 +48,10 @@ This type of approach is based on experiential learning. Content in blue has bee
 - <span style="color: blue">[Handling stateful processing](https://OMSCSYellowJacket.github.io/maintainingstate)</span>
   
 <b> Module 4: Data Handling and Storage</b><br> 
-- <span style="color: blue">Real-Time Data Storage Solutions</span>
-- <span style="color: blue">Overview of databases suitable for streaming data (e.g., Cassandra, Redis)</span>
-- <span style="color: blue">Introduction to time-series databases (e.g., InfluxDB)</span>
+- <span style="color: blue">[Overview of databases suitable for streaming data](https://OMSCSYellowJacket.github.io/databases)</span>
+- <span style="color: blue">[Considerations for choosing a real-time database](https://OMSCSYellowJacket.github.io/databases#considerations-for-choosing-a-real-time-database)</span>
 - <span style="color: blue">Data modeling for streaming applications </span>
 - <span style="color: blue">Designing ETL pipelines for real-time data ingestion </span>
   
 <b> Module 5: Building Data-Driven Applications</b><br> 
 - <span style="color: blue">Develop real-time application using market price data to create buy/sell signals </span>
-
-## Current Content
-
-For Milestone one initial content has been developed and can be found at the link below.  This content will be organized for Milestone two. This content will culminated into a project for the final report.<br>
-
-[Current Content](https://omscsyellowjacket.github.io/content)<br>
