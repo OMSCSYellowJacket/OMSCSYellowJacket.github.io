@@ -50,8 +50,9 @@ This type of approach is based on experiential learning. Content in blue has bee
 <b> Module 4: Data Handling and Storage</b><br> 
 - <span style="color: blue">[Overview of databases suitable for streaming data](https://OMSCSYellowJacket.github.io/databases)</span>
 - <span style="color: blue">[Considerations for choosing a real-time database](https://OMSCSYellowJacket.github.io/databases#considerations-for-choosing-a-real-time-database)</span>
-- <span style="color: blue">Data modeling for streaming applications </span>
-- <span style="color: blue">Designing ETL pipelines for real-time data ingestion </span>
+- <span style="color: blue">[Scaling data streaming processes](https://OMSCSYellowJacket.github.io
+/scaling)</span>
+- <span style="color: blue">[Considerations for scaling data streaming processes](https://OMSCSYellowJacket.github.io/scaling#considerations-for-scaling)</span>
   
 <b> Module 5: Building Data-Driven Applications</b><br> 
 - <span style="color: blue">Develop real-time application using market price data to create buy/sell signals </span>
