@@ -1,4 +1,4 @@
-# Scaling Machine Learning Applications: How to Create Robust Applications
+# Bridging the Disconnect Between Machine Learning Education and Machine Learning Implementation
 ## Introduction (Content Track)
 Due to the current popularity of artificial intelligence, machine learning classes
 at the elementary, secondary, and tertiary level have been increasing. Despite
