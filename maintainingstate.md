@@ -38,17 +38,11 @@ Stateful processing in streaming data involves maintaining information about the
 
 Several frameworks are specifically designed to support stateful processing in streaming data:
 
-1. **Apache Flink**:
-   - Offers strong support for stateful processing through its rich API, allowing developers to define keyed state, manage state lifecycles, and perform windowed aggregations.
-
 2. **Apache Spark Streaming**:
    - Supports stateful operations through stateful transformations (e.g., updateStateByKey) and windowing functions. Checkpointing is also available for state recovery.
 
 3. **Apache Kafka Streams**:
    - Provides built-in support for stateful processing with state stores that maintain information for each key, allowing for complex processing like joins and aggregations.
-
-4. **Apache Beam**:
-   - A unified programming model that can run on various execution engines, providing features for stateful processing with windowing and session management.
 
 ### Use Cases for Stateful Processing
 
