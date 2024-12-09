@@ -25,11 +25,13 @@ This type of approach is based on experiential learning. Content in blue has bee
 ## Lessons
 
  <b> Module 1: Streaming Data Fundamentals  </b><br> 
-- <span style="color: blue">Introduction to Streaming Data</span>
-- <span style="color: blue">Definition and characteristics of streaming data</span>
-- <span style="color: blue">Differences between batch processing and stream processing</span>
-- <span style="color: blue">Algorithms for real-time data processing</span>
-- <span style="color: blue">Requirements engineering</span>
+- <span style="color: blue">Introduction to Streaming Data[https://github.com/OMSCSYellowJacket/OMSCSYellowJacket.github.io/blob/main/data]</span>
+- <span style="color: blue">Definition and characteristics of streaming data[https://github.com/OMSCSYellowJacket/OMSCSYellowJacket.github.io/blob/main/data.md#definition-of-streaming-data]</span>
+- <span style="color: blue">Differences between batch processing and stream processing[https://github.com/OMSCSYellowJacket/OMSCSYellowJacket.github.io/blob/main/data.md#batch-data-versus-streaming-data]</span>
+- <span style="color: blue">Algorithms for real-time data processing[https://github.com/OMSCSYellowJacket/OMSCSYellowJacket.github.io/blob/main/data.md#types-of-streamimg-data-algorithms]</span>
+- <span style="color: blue">Requirements engineering[https://OMSCSYellowJacket.github.io
+/requirements.md
+]</span>
 
 <b> Module 2: Stream Processing Architectures</b><br> 
 - <span style="color: blue">Overview of kappa stream processing architecture</span>
