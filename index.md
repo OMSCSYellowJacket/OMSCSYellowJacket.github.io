@@ -44,7 +44,8 @@ This type of approach is based on experiential learning. Content in blue has bee
 - <span style="color: blue">[Stream Processing with Apache Spark Streaming](https://OMSCSYellowJacket.github.io/spark)</span>
 - <span style="color: blue">[Overview of Spark Streaming](https://OMSCSYellowJacket.github.io/spark#spark-streaming)</span>
 - <span style="color: blue">[Processing streams: transformations, windowing, and aggregations](https://OMSCSYellowJacket.github.io/spark#transformations)</span>
-- <span style="color: blue">Handling stateful processing and fault tolerance</span>
+- <span style="color: blue">[Handling fault tolerance](https://OMSCSYellowJacket.github.io/faulttolerance)</span>
+- <span style="color: blue">[Handling stateful processing](https://OMSCSYellowJacket.github.io/maintainingstate)</span>
   
 <b> Module 4: Data Handling and Storage</b><br> 
 - <span style="color: blue">Real-Time Data Storage Solutions</span>
