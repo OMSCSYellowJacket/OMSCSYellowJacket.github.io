@@ -88,13 +88,4 @@ Processing streaming data transformations involves applying various operations t
      - Writing results to a database.
      - Sending alerts or notifications based on specific conditions (e.g., triggering an alert for high transaction volumes).
 
-### Processing Frameworks
-
-Several frameworks facilitate the processing of streaming data transformations, including:
-
-- **Apache Spark Streaming**: Offers high-level APIs for stream processing and integrates with other Spark components.
-- **Apache Flink**: Provides advanced stream processing capabilities, including complex event processing and stateful computations.
-- **Apache Kafka Streams**: A lightweight library for building real-time applications that process data in Kafka topics.
-- **Apache Beam**: An open-source model for defining both batch and streaming data processing pipelines, which can run on various execution engines.
-
 Transformations in streaming data processing are essential for extracting insights and taking action in real time. By utilizing various transformation types—such as mapping, filtering, aggregation, and windowing—organizations can analyze data streams effectively, leading to timely decisions and improved operational efficiency.
