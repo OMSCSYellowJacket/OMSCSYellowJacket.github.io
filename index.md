@@ -20,7 +20,7 @@ data. This course will focused creating educational content on how to create end
 This type of approach is based on experiential learning. Content in blue has been completed.
 
 [Milestone 1 Video Link](https://mediaspace.gatech.edu/media/Scaling+Machine+Learning+Applications/1_03qeqwy0)<br> 
-[Milestone 2 Video Link](https://mediaspace.gatech.edu/media/Milestone2/1_x8sto7p0)
+[Milestone 2 Video Link](https://mediaspace.gatech.edu/media/Milestone2/1_x8sto7p0)<br>
 [Final Project](https://mediaspace.gatech.edu/media/FinalProject/1_g3dm4jmp)
 
 ## Lessons
